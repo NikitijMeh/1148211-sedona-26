@@ -13,11 +13,12 @@
   		 <li><a href=''>Информация</a></li>
   		 <li><a href=''>Фото и видео</a></li>
   		 <li><a href=''>Карта штата</a></li>
-  		 <li><a href=''>Гостиницы</a></li>
+  		 <li><a href='catalog.html'>Гостиницы</a></li>
       </ul>
   	</nav>
   </header>
   <main>
+    <h1>Отели</h1>
     <img src="img/background-photo.png"
          class="background-photo">
     <img src="img/polygon.png"
@@ -25,86 +26,93 @@
   	<img src="img/welcome.png"    
      class="welcome"  alt='Welcome to Sedona'>
 
-   <a>Седона — небольшой городок в Аризоне,
-        заслуживающий большего!</a>
+   <p>Седона — небольшой городок в Аризоне,
+        заслуживающий большего!</p>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 
-    <section>
-      <h2 class="visually-hidden">Заголовок</h2>
-      <ol>
+  <section>
+    <h2 class="visually-hidden">Заголовок</h2>
+    <ol>
+      <li>
+        <h3 class="">Настоящий городок</h3>
+        <p>Седона-не аттракцион для туристов,там  течёт своя жизнь</p>  
+        
+        <ul>        
           <li>
-          <ul>
-            <li>
-              <h3 class="">Настоящий городок</h3>
-               <p>Седона-не аттракцион для туристов,там  течёт своя жизнь</p>    
-                <style>
-                  body { background: url(img/feature-picture.png); }
-                </style>
-            </li>         
-     
-            <li>
-                <h3 class="">Жильё</h3>
-                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-               <style>
-                  body { background: url(img/icon-1.png); }
-                </style>
-            </li>
-  			   
-            <li>
-                <h3 class="">Еда</h3>
-  				      <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-                <style>
-                  body { background: url(img/icon-2.png); }
-                </style>
-            </li>
-  			
-            <li>
-        	      <h3 class="">Сувениры</h3>
-  				      <p>Не только китайского, но и местного производства!</p>
-                <style>
-                  body { background: url(img/icon-3.png); }
-                </style>
-  			    </li>
-  		    </ul>
-  	
-        <li>
-          <h3 class="">Там есть мост дьявола</h3>
-           <img src="img/layer-5.png">
-           <p>Да,по нему можно пройти!!Если вы осмелитеcь
-           </p>
-        </li>
-        <li>
-          <h3 class="">Небольшая площадь</h3>
-          <p>Все достопримечательности находятся очень близко</p>
-        </li>
-        <li>
-          <h3 class="">Красивая дорога</h3>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!
-          </p>
-        </li>
-        <li>
-          <h3 class="">Мало туристов</h3>
-          <p>Большинство едет в Гранд-Каньон и толпится там
-          </p>  
-       </li>
-      </ol>
-    </section>
+            <h3 class="">Жильё</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
 
+          <li>
+            <h3 class="">Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+
+          <li>
+            <h3 class="">Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+      </li>
+      
+      <li>
+        <h3 class="">Там есть мост дьявола</h3>
+        <img src="img/layer-5.png">
+        <p>Да,по нему можно пройти!!Если вы осмелитеcь
+        </p>
+      </li>
+      <li>
+        <h3 class="">Небольшая площадь</h3>
+        <p>Все достопримечательности находятся очень близко</p>
+      </li>
+      <li>
+        <h3 class="">Красивая дорога</h3>
+        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!
+        </p>
+      </li>
+      <li>
+        <h3 class="">Мало туристов</h3>
+        <p>Большинство едет в Гранд-Каньон и толпится там
+        </p>  
+      </li>
+    </ol>
+</section>
     <section>    
         <p style="">Заинтересовались?</p>
   			<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
           
-            <button type='button' style="">Поиск гостиницы в Седоне</button>
-           <p class="">Дата заезда:</p>
-           <time datetime= '2017-04-24'>24 апреля</time>
+            <h3>Поиск гостиницы в Седоне</h3>
+            <form class="" method=""
+                  action= "?"> <!--?-->
+
+             <p>
+                <label for="datetime">Дата заезда</label>
+                <input id= "datetime" type="date"
+                       name="date"  placeholder="24 Апреля 2017">
+             </p>
 
            
-           <p>Дата выезда:</p>
-           <time datetime= '2017-07-04'>4 июля</time>
-           <p class="">Взрослые:</p><!--Здесь будет форма-->
-           <p>Дети:</p><!--Здесь будет форма-->
+             <p>
+                <label for="datetime">Дата выезда</label>
+                <input id= "datetime" type="date"
+                       name="date" placeholder="7 Июля 2017">
+             </p>
+             <p>
+                <label for="quantity">Взрослые</label>
+                <input id="quantity" type="number"
+                       name="number" placeholder="1">
+                <button type="less">-</button>
+                <button type="more">+</button> <!--?-->
+             </p>
+             <p>
+                <label for="quantity">Дети</label>
+                <input id="quantity" type="number"
+                       name="number" placeholder="1">
+                <button type="less">-</button>
+                <button type="more">+</button>
+             </p>  
+           
            <button type='button'>Найти</button>
-           <img src="img/map.png">
     </section>
   </main>
   <footer>
@@ -122,7 +130,7 @@
   	    <p>
   	 	     Website by
   		     <a href='https://htmlacademy.ru'>HTML Academy</a>
-  	   </p>
+  	    </p>
   </footer>
    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
 
